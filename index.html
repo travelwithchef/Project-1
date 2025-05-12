@@ -1,77 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Air Crash Dataset (1913–2025)</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #008080;
-      color: black;
-      margin: 20px;
-    }
-    h1 {
-      text-align: center;
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      font-size: 14px;
-    }
-    th, td {
-      border: 1px solid black;
-      padding: 6px 8px;
-      text-align: center;
-    }
-    th {
-      background-color: #f0f0f0;
-    }
-    .container {
-      overflow-x: auto;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Portfolio Project</title>
 </head>
 <body>
-  <h1>Global Air Crash Data (1913 – 2025)</h1>
-  <div class="container">
-    <table>
-      <tr>
-        <th>Year</th>
-        <th>Date</th>
-        <th>Site</th>
-        <th>Aircraft Type</th>
-        <th>Destination</th>
-        <th>Crew</th>
-        <th>Fatalities</th>
-        <th>Survived</th>
-        <th>Summary</th>
-        <th>Location</th>
-      </tr>
-      <tr><td>1913</td><td>17.10.1913</td><td>Johannistal Air</td><td>Airship</td><td>...</td><td>28</td><td>28</td><td>0</td><td>Explosion of Gasoline</td><td>-</td></tr>
-      <tr><td>1930</td><td>10.02.1930</td><td>Air Union Farman</td><td>Farman F63</td><td>Marden, Kent</td><td>3</td><td>2</td><td>4</td><td>Engine Failure</td><td>51°10'N 0°31'E</td></tr>
-      <tr><td>1935</td><td>06.05.1935</td><td>TWA Flight-6</td><td>Douglas DC4</td><td>Near Atlanta</td><td>2</td><td>5</td><td>8</td><td>Bad Weather</td><td>39.93°N 92.59°W</td></tr>
-      <tr><td>1940</td><td>31.08.1940</td><td>Lovettsville Air Disaster</td><td>Douglas DC3</td><td>Virginia</td><td>4</td><td>25</td><td>0</td><td>Severe Rainstorm</td><td>39°16'24"N 77°41'05"W</td></tr>
-      <tr><td>1945</td><td>23.02.1945</td><td>American Airlines-009</td><td>Douglas DC3-237</td><td>Glade Mountain</td><td>3</td><td>17</td><td>5</td><td>Engine Failure in Rain</td><td>36°53'36"N 81°16'34"W</td></tr>
-      <tr><td>1950</td><td>12.06.1950</td><td>Air France</td><td>Douglas DC4-1000</td><td>Sea of Bahrain</td><td>8</td><td>44</td><td>6</td><td>-</td><td>-</td></tr>
-      <tr><td>1955</td><td>20.03.1955</td><td>American Airlines-711</td><td>Covar CV240</td><td>Near Springfield Airport</td><td>3</td><td>13</td><td>22</td><td>Human Error</td><td>0.25 mi to Springfield</td></tr>
-      <tr><td>1960</td><td>26.09.1960</td><td>Austrian Airlines-901</td><td>Vickers 837</td><td>11 km from Sheremetyevo</td><td>6</td><td>31</td><td>6</td><td>Human Error</td><td>11 km from Sheremetyevo</td></tr>
-      <tr><td>1965</td><td>05.05.1965</td><td>Iberia Airlines-401</td><td>Lockheed L1049</td><td>Los Redos Airport</td><td>9</td><td>30</td><td>19</td><td>Poor Visual on Runway</td><td>Los Redos Airport</td></tr>
-      <tr><td>1970</td><td>31.03.1970</td><td>Japan Airlines-401</td><td>Boeing 727-89</td><td>Japan</td><td>7</td><td>0</td><td>0</td><td>Hijacked</td><td>Japan</td></tr>
-      <tr><td>1975</td><td>30.01.1975</td><td>Turkish Airlines-345</td><td>Fokker F28-1000</td><td>Sea of Marmara</td><td>4</td><td>42</td><td>0</td><td>Lost at sea</td><td>40°74'72"N 28.666°E</td></tr>
-      <tr><td>1980</td><td>21.01.1980</td><td>Iran Air-291</td><td>EP-IRD</td><td>Albourz Mountain</td><td>8</td><td>128</td><td>0</td><td>Human Error</td><td>35°44'N 51°25'E</td></tr>
-      <tr><td>1985</td><td>19.02.1985</td><td>China Airlines-006</td><td>Boeing 747 SP04</td><td>Pacific Ocean</td><td>23</td><td>0</td><td>274</td><td>Engine Failure</td><td>Pacific Ocean</td></tr>
-      <tr><td>1990</td><td>14.02.1990</td><td>Indian Airlines-605</td><td>Airbus A320</td><td>Karnataka Golf Club</td><td>7</td><td>92</td><td>54</td><td>Fire</td><td>12.948°N 77.6478°E</td></tr>
-      <tr><td>1995</td><td>11.02.1995</td><td>Air Transport Intl-782</td><td>MccD</td><td>Missouri, USA</td><td>3</td><td>3</td><td>0</td><td>Human Error</td><td>39°18'50"N 94°43'51.8"W</td></tr>
-      <tr><td>2000</td><td>31.01.2000</td><td>Alaska Airlines-261</td><td>Mcc MD83</td><td>Pacific Ocean</td><td>5</td><td>88</td><td>0</td><td>Human Error</td><td>34°03.5'N 119°20.8'W</td></tr>
-      <tr><td>2005</td><td>16.08.2005</td><td>W. Caribbean Air-708</td><td>Mcc MD82</td><td>Venezuela</td><td>8</td><td>160</td><td>0</td><td>Human Error</td><td>9°39'59"N 72°36'40"W</td></tr>
-      <tr><td>2010</td><td>22.05.2010</td><td>Air India Express-812</td><td>Boeing 737-800</td><td>Mangalore</td><td>6</td><td>158</td><td>8</td><td>Human Error</td><td>12°56'48"N 74°52'25"E</td></tr>
-      <tr><td>2015</td><td>08.09.2015</td><td>British Airways-2276</td><td>Boeing 777</td><td>Nevada, USA</td><td>13</td><td>0</td><td>17</td><td>Fire</td><td>36°4'34.67"N 115°9'8.96"W</td></tr>
-      <tr><td>2020</td><td>08.01.2020</td><td>Ukraine Intl Air-752</td><td>Boeing 777</td><td>Imam Khomaini Airport</td><td>9</td><td>176</td><td>0</td><td>Missile Fired</td><td>35°33'40"N 51°6'14"E</td></tr>
-      <tr><td>2025</td><td>17.04.2025</td><td>Tropil Air-711</td><td>Cessna 208</td><td>Belize City</td><td>2</td><td>1</td><td>15</td><td>Hijacked</td><td>Belize City</td></tr>
-    </table>
-  </div>
+  <h1>Hello, I’m learning GitHub!</h1>
+  <button id="clickMe">Click Me</button>
+  <p id="output"></p>
+
+  <script src="script.js"></script>
 </body>
 </html>
